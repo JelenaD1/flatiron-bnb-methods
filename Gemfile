@@ -8,7 +8,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'uglifier'
 gem 'bootsnap'
 gem 'learn-co'
-
+gem 'validates_overlap'
 gem 'sqlite3', '~>1.3.6'
 
 group :development, :test do

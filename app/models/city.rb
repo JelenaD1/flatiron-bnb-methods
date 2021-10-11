@@ -23,6 +23,8 @@ class City < ActiveRecord::Base
   def self.most_res
     all.max_by {|city| city.reservations.count}
   end 
+
+  
   
 end
 
